@@ -208,7 +208,7 @@ cc_library_shared {
             // Note: OPUS enhanced DSP/NEON implementation is not yet
             // compatible with arm64.  Only add the appropriate defines for
             // 32-bit arm architecture.
-            armv7_a_neon: {
+            neon: {
                 srcs: [
                     // CELT_SOURCES_ARM_NEON_INTR
                     "celt/arm/celt_neon_intr.c",
