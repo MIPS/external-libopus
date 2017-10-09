@@ -169,6 +169,8 @@ cc_library_shared {
         "-DHAVE_LRINTF",
         "-O2",
         "-fno-math-errno",
+        "-Wall",
+        "-Werror",
     ],
     cppflags: [
         "-DBSD=1",
